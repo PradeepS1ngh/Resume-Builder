@@ -12,7 +12,7 @@ class GettingStarted extends React.Component{
         super(props,context);
          this.state = {
              document: this.props.document,
-             firebaseauth: this.props.fireBaseAuth,
+             firebaseauth: this.props.fireBaseAuth ,
         };
     }
 
