@@ -1,0 +1,65 @@
+.gettingStarted {
+  
+  font-family: 'Karla', sans-serif;
+  color: #6a11cb;
+
+  .styleTemplate {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .template-card {
+    flex: 1 0 20%;
+    /* explanation below */
+    margin: 12px;
+    height: 360px;
+    box-shadow: 0 2px 9px rgba(0, 0, 0, 0.1);
+    transition: 800ms;
+    
+    background-color: snow;
+
+
+    &:hover {
+      //  background: rgb(9 51 107 / 89%);
+      -webkit-transition: 0.5s;
+      -o-transition: 0.5s;
+      /* transition: 0.5s; */
+      /* width: 100%; */
+      transform: scale(1.15);
+      z-index: 84;
+      // opacity: 0.8;
+    }
+
+    
+
+    img {
+      flex: 1 0 20%;
+      /* explanation below */
+      margin: 5px;
+      height: 300px;
+      width: 100%;
+    }
+
+    .btn-select-theme {
+      border: none;
+      border: none;
+      padding: 5%;
+      border-radius: 5px;
+      background-image: linear-gradient(to right, #6a11cb 0%, #2575fc 100%);
+      color: white;
+      border-radius: 0.6rem;
+      position: relative;
+      top: -190px;
+      align-items: center;
+      left: 16%;
+      width: 66%;
+      z-index: 1000;
+      outline: none;
+
+      &:hover {
+        display: block;
+      }
+    }
+  }
+
+}

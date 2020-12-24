@@ -1,0 +1,30 @@
+{
+    "contactSection":{
+        "CITY" : "",
+        "CNTY" : "",
+        "EMAI" : "",
+        "FNAM" : "",
+        "LNAM" : "",
+        "PHON" : "",
+        "ZIPC" : "",
+        "PROF" : "",
+        "STAT" : "",
+        "STRT" : "",
+        "PRSU" : ""
+    },
+    "educationSection":{
+       "SCHO": "",
+       "DGRE": "",
+       "GRCG": "",
+       "SCIT": "",
+       "GRDT": " ",
+       "GRYR": ""
+    },
+    "document":{
+        "skinCd":""
+    },
+    "auth":{
+        "email" : "",
+        "password" : ""
+    }
+}

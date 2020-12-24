@@ -1,0 +1,122 @@
+
+.header {
+    font-family: 'Karla', sans-serif;
+    position: absolute;
+    top: 0;
+    left:0px;
+    width: 100%;
+    z-index: 9990;
+    background-image: linear-gradient(to right, #6604d0 0%, #0059f3 100%);
+    border-left: none !important;
+    border-top: none !important;
+    border-right: none !important;
+    // box-shadow: 0 1px 5px 0 #FFF;
+    /* padding: 0 3rem 0 2.6rem; */
+    // border: 1px solid #ebebeb;
+    height: 60px;
+    // box-shadow: 0 1px 5px 0 rgba(0, 0, 0, .25);
+    // box-shadow: inset -2px -3px 5px rgba(255,255,255,0.7);
+    .header-links{
+        width: 100%;
+        // box-shadow: inset 0px -3px 5px rgba(255,255,255,0.7), 0px 5px 5px rgba(0,0,0,0.3);
+    }
+}
+
+.logo {
+    
+    width: 160px;
+    height: 60px;
+    // background-color: yellow;
+    display: flex;
+    flex-direction: row;
+
+    h2{
+        // background-color: red;
+        margin: 0px;
+        font-size: 50px;
+    }
+
+    .logoName{
+        margin:10px ;
+        h3{
+            margin: 0px;
+            font-size: 20px;
+        }
+
+        h4{
+            margin: 0px;
+            font-size: 15px;
+        }
+}
+
+   
+
+}
+
+
+.nav {
+    display: flex;
+    flex-direction: row;
+    color: white;
+    height: 100%;
+    background-image: linear-gradient(to right, #6300cc 0%, #005cfa 100%);
+    ul {
+        float: right;
+        justify-content: flex-end;
+        display: flex;
+        align-items: center;
+        flex: 1 1;
+        height: 100%;
+        margin: 0px;
+        width: auto;
+    }
+
+    li {
+        vertical-align: middle;
+        color: white;
+        display: inline-block;
+        height: auto;
+        margin-bottom: 0;
+        box-sizing: border-box;
+        width: auto;
+        z-index: 9999;
+        margin: 0px 6px;
+    }
+
+
+    .signin {
+        padding-left: 0;
+        padding-right: 0
+    }
+
+    .signup{
+        border: 2px solid blue;
+        background-color: whitesmoke;
+        color: blue;
+        padding: 7px !important;
+        border-radius: 0.6rem;
+    }
+
+    .signup{
+        // background-image: linear-gradient(to right, #6a11cb 0%, #2575fc 100%);
+        background-color: white;
+        color: #6604d0;
+        border: 1px solid white;
+    }
+
+
+  
+
+
+    .header-link-container{
+        width: 80%;
+        box-shadow: inset -2px -3px 5px rgba(255,255,255,0.7), 0px 5px 5px rgba(0,0,0,0.3);
+
+    }
+
+    .logo-container{
+        width: 20%;
+
+    }
+}
+
